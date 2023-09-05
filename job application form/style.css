@@ -77,3 +77,8 @@ input:focus {
     transition: 0.3s ease-out;
     cursor: pointer;
   }
+  @media (max-width: 426px){
+    .formcontainer{
+      display: flex;
+      flex-direction: column;}
+  }
