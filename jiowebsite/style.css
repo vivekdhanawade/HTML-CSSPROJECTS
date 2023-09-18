@@ -1,16 +1,17 @@
 *{
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
 }
 main{
     height: 1000px;
-    width: 1500px;
-    background-color: aqua;
+    width: 100%;
+    /* background-color: aqua; */
 }
 .header{
     height: 100px;
-    width: 1500px;
-    background-color: black;
+    /* width: 100%; */
+    /* background-color: black; */
 }
 .logo{
     height: 100px;
@@ -51,7 +52,7 @@ a{
 }
 .searchbar{
     height: 100px;
-    width: 400px;
+    /* width: 400px; */
     background-color: rgb(52, 52, 140);
     float: left;
 }
