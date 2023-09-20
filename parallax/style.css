@@ -6,7 +6,7 @@
 .img1{
     height: 600px;
     width: 100%;
-    background-image: url('/HTMLCSSPROJECTS/parallax/images/Nature.jpeg');
+    background-image: url('/parallax/images/Nature.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
