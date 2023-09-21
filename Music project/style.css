@@ -5,19 +5,21 @@
 }
 .navbar{
     height: 100px;
+    /* max-width: 100%; */
+    width: 100%;
     background-color: blueviolet;
     display: flex;
+    flex-wrap: wrap;     
     justify-content: space-between;
     padding: 0 50px;
     align-items: center;
-    flex-wrap: wrap;    
     color: white;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 8;
 }
-.navbar ul{
-    display: flex;
+.navbar ul li{
+    display: inline;
 }
 .navbar li{
     margin:0 10px;  
@@ -32,10 +34,10 @@ font-size: 16px;
 }
 .secondsec{
     height: 700px;
-    position: relative;
+    /* position: relative; */
 }
 .secondsec img{
-    background: ;
+    /* background */
     width: 100%;
     object-fit: cover;
     filter: brightness(0.7);
