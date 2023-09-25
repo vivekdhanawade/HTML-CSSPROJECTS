@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    padding-left: 30px;
+}
+.header{
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(46, 49, 67);
+    height: 80px;
+    color: white;
+}
+.header ul li{
+    display: inline;
+    /* margin: 0 20px; */
+}
+.right-nav a{
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: rgb(74, 74, 100);
+    padding: 80px;
+    color: white;
+}
+.about img{
+    width: 300px;
+    height: 300px;
+    border-radius: 30%;
+}
+.about .text{
+    font-size: 30px;
+}
+hr{
+    height: 7px;
+    background-color: rgb(46, 49, 67);
+    border: none;
+}
+.grid-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    grid-template-columns: 300px 300px 300px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.grid-items{
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 5px 5px 10px black;
+    cursor: pointer;
+
+}
+.grid-items img{
+    height: 400px;
+    width: 400px;
+    object-fit: contain;
+}
+h1{
+    text-align: center;
+}
+.footer{
+    background-color: rgb(74, 74, 100);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.footer div{
+    margin: 20px 0;
+}
+.footer a{
+    color: white;
+    margin: 0 10px;
+    font-size: large;
+    text-decoration: none;
+}
+.footer a i{
+    padding: 0 10px;
+}
