@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    
+}
+.firstpage img{
+    width: 100%;
+}
+
+.firstpage {
+    display: flex;
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/images/hero-image.fill.size_1248x702.v1676887167.png);
+    background-repeat: no-repeat;
+    /* opacity: 0.8; */
+    filter: brightness(0.4);
+    overflow: hidden;
+}
+
+
+
+.text span {
+    font-size: 45px;
+}
+
+.text {
+    /* width: 600px; */
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    /* background-color: black; */
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);
+}
+
+.text h1 {
+    font-size: 50px;
+}
+
+.content {
+    /* width: 1530px; */
+    height: 150px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h2 {
+    font-size: 60px;
+}
+
+.content span {
+    font-size: 90px;
+}
+
+.courseinfo {
+    padding: 40px;
+    /* height: 500px; */
+    /* height: 600px; */
+    /* width: 1530px; */
+    /* width: 100vw; */
+    background-color: rgb(255, 255, 255);
+    /* display: inline; */
+    /* padding: 5px; */
+    /* float: left; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.one {
+    width: 250px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    /* border: 2px solid white; */
+    border-radius: 10px;
+    box-shadow: 5px 3px 10px rgb(34, 34, 34);
+    cursor: pointer;
+    /* margin-top: 30px; */
+
+}
+
+.one img {
+    height: 150px;
+    width: 100%;
+    /* border-radius: 10px ; */
+}
+
+.two {
+    width: 250px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    border-radius: 10px;
+    box-shadow: 5px 3px 10px rgb(34, 34, 34);
+    cursor: pointer;
+    /* margin-top: 20px; */
+}
+
+.two img {
+    height: 150px;
+    width: 100%;
+}
+
+.three {
+    width: 250px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    border-radius: 10px;
+    box-shadow: 5px 3px 10px rgb(34, 34, 34);
+    cursor: pointer;
+    /* margin-top: 20px; */
+}
+
+.three img {
+    height: 150px;
+    width: 100%;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+
+.para {
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.courseinfo h2 {
+    text-align: center;
+    margin-top: px;
+}
+
+.footer {
+    
+    height: 200px;
+    width: 100%;
+    /* float: left; */
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+.contact{
+    background-color: rgb(56, 105, 59);
+    height: 100%;
+    width: 50%;
+    float: left;
+    padding-top: 30px;
+    
+}
+.aboutme{
+    /* height: 500px; */
+    background-color: brown;
+    height: 100%;
+    width: 50%;
+    float: left;
+    padding-top: 30px;
+}
+.footer h5{
+    margin-top: 80px;
+    
+    
+}
+.footer h1{
+    margin-bottom: 20px;
+    
+    
+}
+ @media (max-width: 400px){
+    
+    .firstpage {
+        height: 600px;
+        width: 100%;
+    }
+    .text {
+        position: absolute;
+        left: 0%;
+        font-size: 5px;
+    }
+    h2, h1{
+        font-size: 20px;
+    }
+    .content h2{
+        width: 100%;
+        font-size: 20px;
+    }
+    .content span{
+        font-size: 40px;
+    }
+    .courseinfo>div{
+        height: 410px;
+        margin: 20px;
+    }
+    .footer{
+        display: block;
+        font-size: smaller;
+        position: relative;
+        height: 600px;
+        /* width: 320px; */
+        padding-top: 120px;
+        padding-bottom: 20px;
+        top:600px;
+        /* margin: 10px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer>div{
+        margin-top: 30px;
+        box-shadow: 5px 5px 10px black;
+    }
+
+ }
